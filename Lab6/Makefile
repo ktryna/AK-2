@@ -17,3 +17,4 @@ clean:
 %.s %.i: %.c
 	$(MAKE) -C $(KDIR) M=$(PWD) $@
 endif
+
